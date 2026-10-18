@@ -1,8 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> //
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Joud Aziz's personal portfolio, projects, skills, and interests.">
   <title>Joud Aziz | Portfolio</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -10,79 +12,230 @@
 
   <header>
     <h1>Joud Aziz</h1>
-    <p>Computer Science Student</p>
+    <p>Junior Computer Science Student</p>
 
-    <nav>
-      <a href="#about">About Me</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+    <nav aria-label="Portfolio navigation">
+      <button type="button" class="section-btn active"
+        data-section="about" aria-pressed="true">About Me</button>
+
+      <button type="button" class="section-btn"
+        data-section="projects" aria-pressed="false">Projects</button>
+
+      <button type="button" class="section-btn"
+        data-section="skills" aria-pressed="false">My Skills</button>
+
+      <button type="button" class="section-btn"
+        data-section="contact" aria-pressed="false">Contact</button>
     </nav>
+
     <button id="themeButton" type="button">Dark Mode</button>
   </header>
 
   <main>
 
-    <section id="about">
+    <!-- About Me Section -->
+    <section id="about" class="portfolio-section">
       <h2>About Me</h2>
+
       <p>
-        Hi! I'm Joud, a Computer Science student interested in technology
-        and software development. I enjoy learning new skills and building
-        projects that help me improve as a developer.
+        Hi! I'm Joud, a junior Computer Science student with a
+        passion for technology, problem-solving, and software
+        development. I'm currently working on building my own
+        personal website, where I can share my projects, skills,
+        and experiences as I continue to grow.
+      </p>
+
+      <p>
+        I'm especially interested in cybersecurity, a field I
+        hope to pursue in my future career. Beyond technology,
+        I also have a love for fashion and creativity.
+        I enjoy exploring new ideas, learning new things,
+        and finding ways to bring my interests together!
       </p>
     </section>
 
-<section id="projects">
-  <h2>Projects</h2>
+    <!-- Projects Section -->
+    <section id="projects" class="portfolio-section" hidden>
+      <h2>My Projects</h2>
+      <p>
+        Here are some projects I've worked on during my
+        learning journey.
+      </p>
 
-  <article>
-    <h3>SCC – Smart Solar Cleaning System</h3>
+      <!-- Solar Project -->
+      <article class="project-card">
+        <h3>Smart Solar Cleaning System (SCC)</h3>
 
-    <img src="assets/images/solar-power-generation-concept-of-thumbnail-203540.webp"
-     alt="Solar panels">
+        <img
+          src="assets/images/solar-power-generation-concept-of-thumbnail-203540.webp"
+          alt="Solar panels representing the cleaning system">
 
-    <p>
-      A smart solar panel cleaning system designed to reduce dust
-      accumulation on solar panels. The system uses a dust sensor to
-      detect when cleaning is needed and automatically activates a
-      cleaning mechanism to remove dust from the panel surface.
-    </p>
-  </article>
+        <p>
+          The Smart Solar Cleaning System is a project designed
+          to help improve solar panel efficiency by reducing
+          dust accumulation. Dust can affect the performance
+          of solar panels, making regular cleaning important.
+        </p>
 
-  <article>
-    <h3>Plant Care Website</h3>
+        <p>
+          Our system uses a dust sensor to detect when cleaning
+          is needed and automatically activates a cleaning
+          mechanism. The goal is to make maintenance easier
+          and reduce the need for manual cleaning.
+        </p>
 
-    <img src="assets/images/Blossom.jpg"
-     alt="Plant care website">
+        <button type="button" class="details-btn"
+          aria-controls="solarDetails" aria-expanded="false">
+          View Details
+        </button>
 
-    <p>
-      An ongoing web design project that helps users learn about
-      different types of plants and how to care for them, especially
-      under Saudi Arabia's climate conditions. The website also aims
-      to provide access to plant-care consultants for additional
-      guidance and support.
-    </p>
-  </article>
+        <div id="solarDetails" class="project-details" hidden>
+          <h4>Project Goal</h4>
+          <p>
+            To explore an automated solution for keeping solar
+            panels clean and supporting efficient solar energy
+            generation through smart technology.
+          </p>
+        </div>
+      </article>
 
-</section>
+      <!-- Plant Care Project -->
+      <article class="project-card">
+        <h3>Plant Care App — Prototype</h3>
 
-    <section id="contact">
+        <img src="assets/images/Blossom.jpg"
+          alt="Plant care project image">
+
+        <p>
+          This project is a mobile application prototype
+          designed to make gardening easier, especially
+          for people living in Saudi Arabia.
+          It helps users discover plants suitable for
+          their region and learn how to take care of them.
+        </p>
+
+        <p>
+          The app includes personalized gardening preferences,
+          a plant catalog, planting recommendations, and
+          information about watering, sunlight, soil,
+          temperature, and harvesting.
+        </p>
+
+        <p>
+          It also explores features such as planting calendars,
+          gardening reminders, weather alerts, and educational
+          content about Saudi agriculture.
+        </p>
+
+        <button type="button" class="details-btn"
+          aria-controls="plantDetails" aria-expanded="false">
+          View Details
+        </button>
+
+        <div id="plantDetails" class="project-details" hidden>
+          <h4>Our Prototype</h4>
+          <p>
+            These wireframes show how users could interact
+            with the app, from setting their preferences
+            to exploring plants and gardening information.
+          </p>
+
+          <div class="prototype-gallery">
+            <figure>
+              <img src="assets/images/Picture4.png"
+                alt="Gardening preferences and planting recommendations"
+                loading="lazy">
+              <figcaption>Gardening Preferences</figcaption>
+            </figure>
+
+            <figure>
+              <img src="assets/images/Picture3.png"
+                alt="Plant catalog and plant care information"
+                loading="lazy">
+              <figcaption>Plant Catalog</figcaption>
+            </figure>
+
+            <figure>
+              <img src="assets/images/Picture2.png"
+                alt="Saudi agriculture exploration and admin screens"
+                loading="lazy">
+              <figcaption>Explore Saudi Agriculture</figcaption>
+            </figure>
+
+            <figure>
+              <img src="assets/images/Picture1.png"
+                alt="Additional prototype screens for Saudi agriculture"
+                loading="lazy">
+              <figcaption>Additional Wireframes</figcaption>
+            </figure>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="portfolio-section" hidden>
+      <h2>My Skills & Interests</h2>
+
+      <h3>Technical Skills</h3>
+      <div class="skills-list">
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">CSS</span>
+        <span class="skill-tag">JavaScript</span>
+      </div>
+
+      <h3>Professional Skills</h3>
+      <div class="skills-list">
+        <span class="skill-tag">Problem-Solving</span>
+        <span class="skill-tag">Teamwork</span>
+        <span class="skill-tag">Communication</span>
+      </div>
+
+      <h3>My Interests</h3>
+      <div class="skills-list">
+        <span class="skill-tag">Cybersecurity</span>
+        <span class="skill-tag">Web Development</span>
+        <span class="skill-tag">Fashion & Design</span>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="portfolio-section" hidden>
       <h2>Contact Me</h2>
 
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
+      <p>
+        I'd love to connect! You can reach me at
+        <a href="mailto:joudazizalqarni@gmail.com">
+          joudazizalqarni@gmail.com
+        </a>
+      </p>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
+      <p>
+        Or fill out the form below to prepare an email.
+      </p>
 
-        <label for="message">Message:</label>
+      <form id="contactForm" novalidate>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name"
+          autocomplete="name">
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email"
+          autocomplete="email">
+
+        <label for="message">Your Message</label>
         <textarea id="message" name="message"></textarea>
 
-        <button type="submit">Send</button>
+        <button type="submit" class="contact-btn">
+          Prepare Email
+        </button>
+
+        <p id="formFeedback" role="status" aria-live="polite"></p>
       </form>
     </section>
 
   </main>
-<script src="js/script.js"></script>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
