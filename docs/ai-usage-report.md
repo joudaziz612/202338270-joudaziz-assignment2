@@ -2,30 +2,26 @@
 
 ## Tools Used & Use Cases
 
-For this assignment, I used ChatGPT as an AI-assisted development tool.
+For this assignment, I used ChatGPT as an AI-assisted learning and development tool.
 
-I completed most of the basic HTML structure by myself because HTML was the easiest part for me and I was already familiar with its main elements. However, I used ChatGPT to check some parts of my HTML and to suggest a few additional lines when needed.
+I completed most of the basic HTML structure by myself because I was already familiar with HTML. I used ChatGPT to review parts of my code and suggest improvements when needed.
 
-The area where ChatGPT helped me the most was the design of the website. I used it to help me create and organize the CSS styling, including the layout, colors, spacing, project sections, and responsive design.
-
-I also used ChatGPT to help me add JavaScript interactivity to the website. In particular, it helped me create the Dark/Light Mode button and connect the JavaScript file correctly to my HTML.
+ChatGPT helped me mainly with CSS styling, including the layout, colors, and responsive design. It also guided me through JavaScript features such as Dark/Light Mode, interactive navigation, expandable project details, and contact form validation.
 
 ## Benefits & Challenges
 
-The main benefit of using ChatGPT was that it made the development process faster, especially when working with CSS and JavaScript. It was also useful when I was unsure about where to place certain code or how different files should be connected.
+ChatGPT made the development process easier, especially when working with CSS and JavaScript. It helped me understand where to place code and how different files work together.
 
-One challenge was that I did not want to simply copy AI-generated code without understanding it. Some suggestions included things that I had not used before, so I reviewed them and asked for explanations before adding them to my project.
+One challenge was understanding unfamiliar code. Instead of only copying suggestions, I asked for explanations and tested the changes on my website. I also used ChatGPT to help troubleshoot issues with CSS and GitHub Pages.
 
 ## Learning Outcomes
 
-Through this assignment, I became more comfortable with organizing a website into separate HTML, CSS, and JavaScript files. I also learned more about responsive web design and how CSS can be used to make the same website work on different screen sizes.
+I learned more about organizing HTML, CSS, and JavaScript files, responsive design, and how JavaScript can make a website interactive.
 
-Using AI also helped me understand how JavaScript can interact with HTML and CSS. For example, I learned how the Dark/Light Mode button uses JavaScript to change a CSS class and update the appearance of the page.
-
-I also gained more experience using GitHub, including creating a repository, organizing project folders, making meaningful commits, and deploying a website using GitHub Pages.
+I also improved my understanding of form validation, showing and hiding content, and using GitHub to update and publish my website.
 
 ## Responsible Use & Modifications
 
-I used ChatGPT as a support tool rather than relying on it to complete the entire assignment. I wrote and understood the basic HTML structure myself and used AI mainly for guidance, design suggestions, JavaScript assistance, and checking my work.
+I used ChatGPT as a learning and support tool, not just to get answers. I reviewed the suggested changes, asked questions when something was unclear, and adjusted the content to match my own projects and preferences.
 
-Before using AI-generated suggestions, I reviewed the code and asked for explanations when I did not understand something. I also modified the content to match my own portfolio, projects, and preferences instead of submitting the AI output without changes.
+This helped me understand the development process while improving my portfolio website.
