@@ -85,3 +85,9 @@ After validation, it opens the user's email application with a prepared message.
 ## Author
 
 Joud Aziz
+
+## AI Usage
+
+I used ChatGPT for learning support, CSS and JavaScript guidance,
+troubleshooting, and reviewing my work. More details are available
+in docs/ai-usage-report.md.
