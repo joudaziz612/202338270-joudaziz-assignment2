@@ -25,3 +25,18 @@ I also improved my understanding of form validation, showing and hiding content,
 I used ChatGPT as a learning and support tool, not just to get answers. I reviewed the suggested changes, asked questions when something was unclear, and adjusted the content to match my own projects and preferences.
 
 This helped me understand the development process while improving my portfolio website.
+
+## AI Usage Log
+
+| ID | Tool (model) | Date | Purpose | Files affected | What I changed and how I verified it |
+|---|---|---|---|---|---|
+| C01 | ChatGPT (GPT-6) | October 2026 | Help with CSS, JavaScript, debugging, and documentation for Assignment 2 | index.html, css/styles.css, js/script.js, README.md, docs/ | Reviewed and updated the suggested changes, tested the interactive features in the browser, and verified the deployed website on GitHub Pages. |
+
+## AI Usage Declaration
+
+I declare that this report and the attached evidence document all of my AI use in this assignment, with complete and unedited conversations, and that I understand and can explain all the code I submitted. I understand that undeclared AI use or a false declaration will be treated as plagiarism according to KFUPM regulations.
+
+Name: Joud Aziz Alqarni
+Student ID: 202338270
+Date: 2026-10-19
+Signature: Joud Aziz Alqarni
